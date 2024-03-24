@@ -16,8 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 3.125vw;
 }
 
 .logo{
@@ -26,47 +25,47 @@ header{
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-size: large;
+    font-size: clamp(0.5em, 1em + 1vw, 2vw);
 }
 
 .links{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 1079px;
+    width: 40vw;
 }
 
 .links a{
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
-    font-size: medium;
+    font-size: clamp(0.5em, 1em + 1vw, 1vw);
 }
 
 .secao-pagina{
     display: flex;
-    width: 250px;
+    width: 35%;
     justify-content: space-between;
 }
 
 .redes-sociais{
     display: flex;
-    width: 136px;
+    width: 8vw;
     justify-content: space-between;
     margin-left: 32px;
 }
 
 .rede-social{
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
 
 .rede-social img{
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
 }
 
 main{
@@ -103,7 +102,7 @@ main{
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-size: 40px;
+    font-size: clamp(0.5em, 1em + 1.5vw, 2vw);
 }
 
 .container-imgs{
@@ -144,7 +143,7 @@ main{
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-size: 52px;
+    font-size: clamp(0.5em, 1em + 2vw, 4vw);
 }
 
 .botao{
@@ -156,7 +155,7 @@ main{
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: clamp(0.1em, 0.5em + 1vw, 1vw);
     border-color: #F7FAFC;
 }
 
