@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* #region INICIO CSS PAGINA INDEX.HTML*/
 header{
     display: flex;
     flex-direction: row-reverse;
@@ -158,6 +158,89 @@ main{
     font-size: clamp(0.1em, 0.5em + 1vw, 1vw);
     border-color: #F7FAFC;
 }
+/* #endregion */
 
 
+/* #region INICIO CSS PAGINA PRODUTO.HTML*/
+.container-produto-texto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 4.55vw;
+}
 
+#produto-texto1{
+    width: 97%;
+    height: 43.26%;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: clamp(0.5em, 1em + 0.7vw, 2vw);
+}
+
+.container-produto-tabela{
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    height: 49.4vh;
+}
+
+.tabela-produto{
+    width: 96.66%;
+    height: 96%;
+}
+
+table tr{
+    display: flex;
+}
+
+table tr th{  
+    display: flex; 
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: clamp(0.5em, 1em + 0.4vw, 0.8vw);
+}
+
+table tr td{
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size: clamp(0.5em, 1em + 0.4vw, 0.8vw);
+}
+
+#cabecalho-produto{
+    display: flex;
+    justify-content: space-around;
+    width: 33.31%;
+}
+
+#cabecalho-preco{
+    width: 32.39%;
+}
+
+#cabecalho-descricao{
+    width: 34.30%;
+}
+
+.conteudo-linha-produto{
+    display: flex;
+    justify-content: space-around;
+    width: 33.31%;
+}
+
+.conteudo-linha-preco{
+    width: 32.39%;
+}
+
+.conteudo-linha-descricao{
+    width: 34.30%;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: flex-start;
+    width: 89.62%;
+}
+/* #endregion */
